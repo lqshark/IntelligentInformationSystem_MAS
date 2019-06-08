@@ -1,0 +1,18 @@
+// Implementation of the example described in chapter 2
+// of the Jason's manual
+
+MAS restaurant {
+
+    infrastructure: Centralised
+
+    environment: ResEnv
+
+    agents: 
+
+        kitchen;
+
+        waiter;
+
+        wall#7;
+
+}
